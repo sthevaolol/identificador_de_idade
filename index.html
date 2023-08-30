@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="dia.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Verificador de idade
+        </h1>
+    </header>
+
+    <section>
+        <div>
+            <p>
+                Digite aqui sua idade:
+                <input type="number" name="txtano" 
+                id="txtano">
+            </p>
+
+            <p>
+                Sexo:
+                <input type="radio" name="redsex" 
+                id="mas" checked>
+                <label for="mas">Masculino</label>
+
+                <input type="radio" name="redsex" 
+                id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+
+            <p>
+                <input type="button" 
+                value="verificar" 
+                onclick="verificar()">
+            </p>
+
+        <div>
+
+        <div id="res">
+            Preencha todos os resultados a cima.
+
+        </div>
+
+    </section>
+
+    <footer> 
+        <p>
+            &copy; by sthevalol
+        </p>
+    </footer>
+
+    <script src="dia.js"></script>
+    
+</body>
+</html>
