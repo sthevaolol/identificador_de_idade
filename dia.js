@@ -43,6 +43,9 @@ function verificar() {
             img.setAttribute('src', 'idoso-f.png')
         }
     }
+
+
+    //Saudades 
     res.innerHTML = `Detectamos: ${genero} com 
     ${idade} anos.`
     res.appendChild(img)
